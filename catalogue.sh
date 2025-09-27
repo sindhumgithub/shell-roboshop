@@ -11,7 +11,7 @@ N="\e[0m"
 LOGS_FOLDER="/var/log/shell-roboshop"
 SCRIPT_NAME=$( echo $0 | cut -d "." -f1 )
 SCRIPT_DIR=$PWD
-MONGODB_HOST=mongodb.sindhuworld.icu
+MONGODB_HOST=172.31.26.18
 LOG_FILE="$LOGS_FOLDER/$SCRIPT_NAME.log"              # /var/log/shell-script/16-logs.log
 
 
